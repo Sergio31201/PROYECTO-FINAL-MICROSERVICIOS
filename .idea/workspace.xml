@@ -1,10 +1,94 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="eureka-server:jar" />
+    </artifacts-to-build>
+  </component>
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6bfd6007-c6f2-4eb3-bc4c-8b8ed6341022" name="Changes" comment="" />
+    <list default="true" id="6bfd6007-c6f2-4eb3-bc4c-8b8ed6341022" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eureka-server/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eureka-server/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eureka-server/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eureka-server/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eureka-server/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eureka-server/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eureka-server/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eureka-server/settings.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eureka-server/src/main/java/com/example/eurekaserver/EurekaServiceApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eureka-server/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eureka-server/src/test/java/com/example/eurekaserver/EurekaServerApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/settings.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/src/main/java/proyectofinal/gateway/GatewayServiceApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/src/main/java/proyectofinal/gateway/controller/GatewayController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/src/main/java/proyectofinal/gateway/security/JwtAuthConverter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/src/main/java/proyectofinal/gateway/security/WebSecurityConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/src/test/java/proyectofinal/gateway/GatewayApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/settings.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/src/main/java/com/example/login/LoginApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/src/main/java/com/example/login/controller/LoginController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/src/main/java/com/example/login/controller/ManejoExcepciones.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/src/main/java/com/example/login/dto/LoginDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/src/main/java/com/example/login/dto/NewUserDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/src/main/java/com/example/login/dto/ResponseGetUserDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/src/main/java/com/example/login/dto/Respuesta.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/src/main/java/com/example/login/dto/TokenDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/src/main/java/com/example/login/dto/TokenResponseDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/src/main/java/com/example/login/dto/UserDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/src/main/java/com/example/login/feignclients/AdminFeignClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/src/main/java/com/example/login/feignclients/TokenFeignClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/src/main/java/com/example/login/model/Usuario.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/src/main/java/com/example/login/security/WebSecurityConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/src/main/java/com/example/login/service/KeycloakService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/src/main/java/com/example/login/service/LoginServicio.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/src/test/java/com/example/login/LoginApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/META-INF/MANIFEST.MF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/usuarios/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/usuarios/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/usuarios/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/usuarios/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/usuarios/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/usuarios/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/usuarios/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/usuarios/settings.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/usuarios/src/main/java/proyectofinal/micro/usuarios/UsuariosApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/usuarios/src/main/resources/META-INF/MANIFEST.MF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/usuarios/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/usuarios/src/test/java/proyectofinal/micro/usuarios/UsuariosApplicationTests.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,25 +98,208 @@
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
     </projectState>
+    <projectState path="$PROJECT_DIR$/eureka-server">
+      <ProjectState />
+    </projectState>
+    <projectState path="$PROJECT_DIR$/gateway">
+      <ProjectState />
+    </projectState>
+    <projectState path="$PROJECT_DIR$/login">
+      <ProjectState />
+    </projectState>
+    <projectState path="$PROJECT_DIR$/usuarios">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="Proyecto_Final_Micro" type="f1a62948:ProjectNode" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="AnnotationType" />
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
   <component name="ProjectId" id="2P4MLiDhclBOFwjeRY5tQnqMfoS" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;openjdk-19&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Usuario/Desktop/Programación/Proyecto_Final_Micro/login&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;service.view.auto.scroll.to.source&quot;: &quot;true&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settingsdialog.project.gradle&quot;,
+    &quot;spring.configuration.checksum&quot;: &quot;26364bc5edd9dc28c04befb417d3a961&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.example.eurekaserver" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Usuario\Desktop\Programación\Proyecto_Final_Micro\login\src\main\java\com\example\login" />
+      <recent name="C:\Users\Usuario\Desktop\Programación\Proyecto_Final_Micro\eureka-server" />
+      <recent name="C:\Users\Usuario\Desktop\Programación\Proyecto_Final_Micro\usuarios" />
+      <recent name="C:\Users\Usuario\Desktop\Programación\Proyecto_Final_Micro\usuarios\src\main\java\proyectofinal\micro\usuarios\dto" />
+      <recent name="C:\Users\Usuario\Desktop\Programación\Proyecto_Final_Micro\usuarios\src\main\java\proyectofinal\micro\usuarios\controller" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Usuario\Desktop\Programación\Proyecto_Final_Micro\eureka-server\build" />
+      <recent name="C:\Users\Usuario\Desktop\Programación\Proyecto_Final_Micro\usuarios\out\artifacts" />
+      <recent name="C:\Users\Usuario\Desktop\Programación\Proyecto_Final_Micro\eureka-server\META-INF" />
+      <recent name="C:\Users\Usuario\Desktop\Programación\Proyecto_Final_Micro\login\build" />
+      <recent name="C:\Users\Usuario\Desktop\Programación\Proyecto_Final_Micro\gateway\build" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="proyectofinal.micro.usuarios.service" />
+      <recent name="proyectofinal.micro.usuarios.repo" />
+      <recent name="proyectofinal.micro.usuarios.entity" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+  </component>
+  <component name="RunManager" selected="Docker.docker-compose.yml: Compose Deployment">
+    <configuration name="Tests in 'Proyecto_Final_Micro'" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="EurekaServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="eureka-server.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.eurekaserver.EurekaServiceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GatewayServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="gateway.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="proyectofinal.gateway.GatewayServiceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LoginApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="login.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.login.LoginApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UsuariosApplication (4)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="Proyecto_Final_Micro.Usuarios.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="proyectofinal.micro.usuarios.UsuariosApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UsuariosApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="usuarios.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="proyectofinal.micro.usuarios.UsuariosApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="docker-deploy" factoryName="docker-compose.yml" temporary="true">
+      <deployment type="docker-compose.yml">
+        <settings />
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <configuration name="docker-compose.yml: Compose Deployment" type="docker-deploy" factoryName="docker-compose.yml" temporary="true" server-name="Docker">
+      <deployment type="docker-compose.yml">
+        <settings>
+          <option name="sourceFilePath" value="docker-compose.yml" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Docker.docker-compose.yml: Compose Deployment" />
+      <item itemvalue="Gradle.Tests in 'Proyecto_Final_Micro'" />
+      <item itemvalue="Spring Boot.UsuariosApplication" />
+      <item itemvalue="Spring Boot.UsuariosApplication (4)" />
+      <item itemvalue="Spring Boot.EurekaServiceApplication" />
+      <item itemvalue="Spring Boot.GatewayServiceApplication" />
+      <item itemvalue="Spring Boot.LoginApplication" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Docker.docker-compose.yml: Compose Deployment" />
+        <item itemvalue="Gradle.Tests in 'Proyecto_Final_Micro'" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SpringBeansView">
+    <option name="beanDetailsProportion" value="0.3" />
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="6bfd6007-c6f2-4eb3-bc4c-8b8ed6341022" name="Changes" comment="" />
@@ -40,8 +307,29 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1682711849011</updated>
-      <workItem from="1682711850307" duration="1000" />
+      <workItem from="1682711850307" duration="1135000" />
+      <workItem from="1683411037031" duration="2305000" />
+      <workItem from="1683496191387" duration="1894000" />
+      <workItem from="1683522589268" duration="24000" />
+      <workItem from="1683742160596" duration="2699000" />
+      <workItem from="1683752062122" duration="1025000" />
+      <workItem from="1683753126061" duration="8883000" />
+      <workItem from="1683773640364" duration="467000" />
+      <workItem from="1683776800137" duration="3264000" />
+      <workItem from="1683809532495" duration="7889000" />
+      <workItem from="1683821904506" duration="9557000" />
+      <workItem from="1683837128064" duration="3895000" />
+      <workItem from="1683842023967" duration="1990000" />
+      <workItem from="1683844270148" duration="1995000" />
+      <workItem from="1683847170891" duration="192000" />
+      <workItem from="1683847462189" duration="3638000" />
     </task>
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
 </project>
