@@ -9,7 +9,25 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6bfd6007-c6f2-4eb3-bc4c-8b8ed6341022" name="Changes" comment="Se crea docker-compose y login" />
+    <list default="true" id="6bfd6007-c6f2-4eb3-bc4c-8b8ed6341022" name="Changes" comment="Se crea docker-compose y login">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gateway" beforeDir="false" afterPath="$PROJECT_DIR$/gateway" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gateway/src/main/java/proyectofinal/gateway/security/WebSecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/gateway/src/main/java/proyectofinal/gateway/security/WebSecurityConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gateway/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gateway/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/login/src/main/java/com/example/login/controller/LoginController.java" beforeDir="false" afterPath="$PROJECT_DIR$/login/src/main/java/com/example/login/controller/LoginController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/login/src/main/java/com/example/login/dto/ResponseGetUserDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/login/src/main/java/com/example/login/dto/RespuestaGetUserDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/login/src/main/java/com/example/login/dto/TokenResponseDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/login/src/main/java/com/example/login/dto/TokenRespuestaDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/login/src/main/java/com/example/login/feignclients/AdminFeignClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/login/src/main/java/com/example/login/feignclients/AdminFeignClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/login/src/main/java/com/example/login/feignclients/TokenFeignClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/login/src/main/java/com/example/login/feignclients/TokenFeignClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/login/src/main/java/com/example/login/service/KeycloakService.java" beforeDir="false" afterPath="$PROJECT_DIR$/login/src/main/java/com/example/login/service/KeycloakService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/login/src/main/java/com/example/login/service/LoginServicio.java" beforeDir="false" afterPath="$PROJECT_DIR$/login/src/main/java/com/example/login/service/LoginServicio.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/login/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/login/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/usuarios" beforeDir="false" afterPath="$PROJECT_DIR$/usuarios" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/usuarios/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/usuarios/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/usuarios/src/main/resources/META-INF/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/usuarios/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/usuarios/src/main/resources/application.properties" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -59,7 +77,29 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/login" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;history&quot;: [
+    {
+      &quot;state&quot;: &quot;OPEN&quot;,
+      &quot;assignee&quot;: &quot;Sergio31201&quot;,
+      &quot;author&quot;: &quot;Sergio31201&quot;
+    }
+  ],
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;Sergio31201&quot;,
+    &quot;author&quot;: &quot;Sergio31201&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="24c651f2-4944-4465-96c5-4224e83162e5" />
+        <option name="url" value="https://github.com/Sergio31201/Proyecto-final-micro" />
+      </UrlAndAccount>
+    </option>
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -84,7 +124,7 @@
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
     &quot;jdk.selected.JAVA_MODULE&quot;: &quot;openjdk-19&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Usuario/Desktop/Programación/Proyecto_Final_Micro/login&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Usuario/Desktop/Programación/Proyecto_Final_Micro&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -99,14 +139,17 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
+  <component name="ReactorSettings">
+    <option name="notificationShown" value="true" />
+  </component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="com.example.eurekaserver" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Usuario\Desktop\Programación\Proyecto_Final_Micro\usuarios" />
       <recent name="C:\Users\Usuario\Desktop\Programación\Proyecto_Final_Micro\login\src\main\java\com\example\login" />
       <recent name="C:\Users\Usuario\Desktop\Programación\Proyecto_Final_Micro\eureka-server" />
-      <recent name="C:\Users\Usuario\Desktop\Programación\Proyecto_Final_Micro\usuarios" />
       <recent name="C:\Users\Usuario\Desktop\Programación\Proyecto_Final_Micro\usuarios\src\main\java\proyectofinal\micro\usuarios\dto" />
       <recent name="C:\Users\Usuario\Desktop\Programación\Proyecto_Final_Micro\usuarios\src\main\java\proyectofinal\micro\usuarios\controller" />
     </key>
@@ -130,7 +173,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Docker.docker-compose.yml: Compose Deployment">
+  <component name="RunManager" selected="Docker.usuarios/Dockerfile">
     <configuration name="Tests in 'Proyecto_Final_Micro'" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -173,7 +216,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UsuariosApplication (4)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+    <configuration name="UsuariosApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="Proyecto_Final_Micro.Usuarios.main" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="proyectofinal.micro.usuarios.UsuariosApplication" />
       <method v="2">
@@ -193,6 +236,12 @@
       </deployment>
       <method v="2" />
     </configuration>
+    <configuration default="true" type="docker-deploy" factoryName="dockerfile" temporary="true">
+      <deployment type="dockerfile">
+        <settings />
+      </deployment>
+      <method v="2" />
+    </configuration>
     <configuration name="docker-compose.yml: Compose Deployment" type="docker-deploy" factoryName="docker-compose.yml" temporary="true" server-name="Docker">
       <deployment type="docker-compose.yml">
         <settings>
@@ -201,17 +250,27 @@
       </deployment>
       <method v="2" />
     </configuration>
+    <configuration name="usuarios/Dockerfile" type="docker-deploy" factoryName="dockerfile" temporary="true" server-name="Docker">
+      <deployment type="dockerfile">
+        <settings>
+          <option name="sourceFilePath" value="usuarios/Dockerfile" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
     <list>
+      <item itemvalue="Docker.usuarios/Dockerfile" />
       <item itemvalue="Docker.docker-compose.yml: Compose Deployment" />
       <item itemvalue="Gradle.Tests in 'Proyecto_Final_Micro'" />
+      <item itemvalue="Spring Boot.UsuariosApplication (1)" />
       <item itemvalue="Spring Boot.UsuariosApplication" />
-      <item itemvalue="Spring Boot.UsuariosApplication (4)" />
       <item itemvalue="Spring Boot.EurekaServiceApplication" />
       <item itemvalue="Spring Boot.GatewayServiceApplication" />
       <item itemvalue="Spring Boot.LoginApplication" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Docker.usuarios/Dockerfile" />
         <item itemvalue="Docker.docker-compose.yml: Compose Deployment" />
         <item itemvalue="Gradle.Tests in 'Proyecto_Final_Micro'" />
       </list>
@@ -245,6 +304,13 @@
       <workItem from="1683847170891" duration="192000" />
       <workItem from="1683847462189" duration="3638000" />
       <workItem from="1683852063010" duration="354000" />
+      <workItem from="1683867325754" duration="2469000" />
+      <workItem from="1683869903924" duration="3714000" />
+      <workItem from="1683915998819" duration="12156000" />
+      <workItem from="1683951157854" duration="2429000" />
+      <workItem from="1683983116246" duration="154000" />
+      <workItem from="1683983489089" duration="6211000" />
+      <workItem from="1683992784390" duration="1226000" />
     </task>
     <task id="LOCAL-00001" summary="Se crea docker-compose y login">
       <created>1683852303005</created>
@@ -264,7 +330,19 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="main" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>

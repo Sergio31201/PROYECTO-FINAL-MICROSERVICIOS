@@ -5,20 +5,17 @@ volumes:
 
 services:
 
-  gateway:
-    image: gateway
-    build: ./gateway
+  usuarios:
+    image: usuarios
+    build: ./usuarios
     restart: always
     depends_on:
       - eureka-server
-      - keycloak
     environment:
-      server.port: 8080
       eureka.client.service-url.defaultZone: http://eureka-server:8761/eureka
-      spring.security.oauth2.resourceserver.jwt.issuer-uri: http://keycloak:8080/realms/tutorial-api
-      spring.security.oauth2.resourceserver.jwt.jwk-set-uri: http://keycloak:8080/realms/tutorial-api/protocol/openid-connect/certs
-    ports:
-      - "8080:8082"
+      spring.data.mongodb.uri: mongodb://localhost:27017/usuario
+
+
 
   eureka-server:
     image: eureka-server
@@ -38,6 +35,7 @@ services:
       - KEYCLOAK_ADMIN=admin
       - KEYCLOAK_ADMIN_PASSWORD=admin
 
+
   login:
     image: login
     build: ./login
@@ -46,6 +44,22 @@ services:
       - keycloak
       - eureka-server
     environment:
-      keycloack.admin-url: http://keycloak:8080/admin/realms/tutorial-api
-      spring.security.oauth2.resourceserver.jwt.issuer-uri: http://keycloak:8080/realms/tutorial-api
+      keycloak.admin-url: http://localhost:9090/realms/tutorial-api
+      spring.security.oauth2.resource-server.jwt.issuer-uri: http://localhost:9090/realms/tutorial-api
       eureka.client.service-url.defaultZone: http://eureka-server:8761/eureka
+
+  gateway:
+    image: gateway
+    build: ./gateway
+    restart: always
+    depends_on:
+      - eureka-server
+      - usuarios
+      - keycloak
+    environment:
+      eureka.client.service-url.defaultZone: http://eureka-server:8761/eureka
+      spring.security.oauth2.resourceserver.jwt.issuer-uri: http://localhost:9090/realms/tutorial-api
+      spring.security.oauth2.resourceserver.jwt.jwk-set-uri: http://localhost:9090/realms/tutorial-api/protocol/openid-connect/certs
+
+    ports:
+      - "8080:8080"
