@@ -9,30 +9,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6bfd6007-c6f2-4eb3-bc4c-8b8ed6341022" name="Changes" comment="Se crea docker-compose y login">
-      <change afterPath="$PROJECT_DIR$/config-server/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config-server/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config-server/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config-server/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config-server/gradlew" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config-server/gradlew.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config-server/settings.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config-server/src/main/java/co/edu/uniquindio/proyecto/ConfigServiceApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config-server/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config-server/src/main/resources/bootstrap.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config-server/src/test/java/co/edu/uniquindio/proyecto/ConfigServerApplicationTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+    <list default="true" id="6bfd6007-c6f2-4eb3-bc4c-8b8ed6341022" name="Changes" comment="se crea config-server">
+      <change afterPath="$PROJECT_DIR$/config-data/login-service-dev.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config-data/login-service-prod.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config-data/usuarios-service-dev.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config-data/usuarios-service-prod.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gateway" beforeDir="false" afterPath="$PROJECT_DIR$/gateway" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gateway/src/main/java/proyectofinal/gateway/security/WebSecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/gateway/src/main/java/proyectofinal/gateway/security/WebSecurityConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gateway/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gateway/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/login" beforeDir="false" afterPath="$PROJECT_DIR$/login" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/login/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/login/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config-server/src/main/resources/bootstrap.properties" beforeDir="false" afterPath="$PROJECT_DIR$/config-server/src/main/resources/bootstrap.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/usuarios" beforeDir="false" afterPath="$PROJECT_DIR$/usuarios" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/usuarios/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/usuarios/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/usuarios/src/main/resources/META-INF/MANIFEST.MF" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/usuarios/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/usuarios/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -87,7 +71,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/config-server" />
   </component>
   <component name="GitHubPullRequestSearchHistory">{
   &quot;history&quot;: [
@@ -134,7 +118,7 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "jdk.selected.JAVA_MODULE": "openjdk-19",
-    "last_opened_file_path": "C:/Users/Usuario/Desktop/Programación/Proyecto_Final_Micro/login/src/main/java/com/example/login",
+    "last_opened_file_path": "C:/Users/Usuario/Desktop/Programación/Proyecto_Final_Micro",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -157,18 +141,18 @@
       <recent name="com.example.eurekaserver" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Usuario\Desktop\Programación\Proyecto_Final_Micro" />
       <recent name="C:\Users\Usuario\Desktop\Programación\Proyecto_Final_Micro\login\src\main\java\com\example\login" />
       <recent name="C:\Users\Usuario\Desktop\Programación\Proyecto_Final_Micro\usuarios" />
       <recent name="C:\Users\Usuario\Desktop\Programación\Proyecto_Final_Micro\eureka-server" />
       <recent name="C:\Users\Usuario\Desktop\Programación\Proyecto_Final_Micro\usuarios\src\main\java\proyectofinal\micro\usuarios\dto" />
-      <recent name="C:\Users\Usuario\Desktop\Programación\Proyecto_Final_Micro\usuarios\src\main\java\proyectofinal\micro\usuarios\controller" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Usuario\Desktop\Programación\Proyecto_Final_Micro\config-data" />
       <recent name="C:\Users\Usuario\Desktop\Programación\Proyecto_Final_Micro\eureka-server\build" />
       <recent name="C:\Users\Usuario\Desktop\Programación\Proyecto_Final_Micro\usuarios\out\artifacts" />
       <recent name="C:\Users\Usuario\Desktop\Programación\Proyecto_Final_Micro\eureka-server\META-INF" />
       <recent name="C:\Users\Usuario\Desktop\Programación\Proyecto_Final_Micro\login\build" />
-      <recent name="C:\Users\Usuario\Desktop\Programación\Proyecto_Final_Micro\gateway\build" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="proyectofinal.micro.usuarios.service" />
@@ -338,7 +322,7 @@
       <workItem from="1685025919681" duration="902000" />
       <workItem from="1685031967712" duration="1442000" />
       <workItem from="1685241435169" duration="7528000" />
-      <workItem from="1685288379644" duration="8003000" />
+      <workItem from="1685288379644" duration="8884000" />
     </task>
     <task id="LOCAL-00001" summary="Se crea docker-compose y login">
       <created>1683852303005</created>
@@ -347,7 +331,14 @@
       <option name="project" value="LOCAL" />
       <updated>1683852303006</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="se crea config-server">
+      <created>1685302356483</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1685302356483</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -379,7 +370,8 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Se crea docker-compose y login" />
-    <option name="LAST_COMMIT_MESSAGE" value="Se crea docker-compose y login" />
+    <MESSAGE value="se crea config-server" />
+    <option name="LAST_COMMIT_MESSAGE" value="se crea config-server" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
