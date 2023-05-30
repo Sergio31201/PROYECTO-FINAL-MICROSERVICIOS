@@ -9,15 +9,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6bfd6007-c6f2-4eb3-bc4c-8b8ed6341022" name="Changes" comment="se crea config-server">
-      <change afterPath="$PROJECT_DIR$/config-data/login-service-dev.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config-data/login-service-prod.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config-data/usuarios-service-dev.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config-data/usuarios-service-prod.properties" afterDir="false" />
+    <list default="true" id="6bfd6007-c6f2-4eb3-bc4c-8b8ed6341022" name="Changes" comment="se agregar configuraciones en config-server">
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config-server/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/config-server/src/main/resources/application.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/config-server/src/main/resources/bootstrap.properties" beforeDir="false" afterPath="$PROJECT_DIR$/config-server/src/main/resources/bootstrap.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/usuarios" beforeDir="false" afterPath="$PROJECT_DIR$/usuarios" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/usuarios/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/usuarios/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gateway" beforeDir="false" afterPath="$PROJECT_DIR$/gateway" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gateway/src/main/java/proyectofinal/gateway/controller/GatewayController.java" beforeDir="false" afterPath="$PROJECT_DIR$/gateway/src/main/java/proyectofinal/gateway/controller/GatewayController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gateway/src/main/java/proyectofinal/gateway/security/WebSecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/gateway/src/main/java/proyectofinal/gateway/security/WebSecurityConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gateway/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gateway/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/login" beforeDir="false" afterPath="$PROJECT_DIR$/login" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/login/src/main/java/com/example/login/controller/LoginController.java" beforeDir="false" afterPath="$PROJECT_DIR$/login/src/main/java/com/example/login/controller/LoginController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/login/src/main/java/com/example/login/service/KeycloakService.java" beforeDir="false" afterPath="$PROJECT_DIR$/login/src/main/java/com/example/login/service/KeycloakService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,6 +32,9 @@
       <ProjectState />
     </projectState>
     <projectState path="$PROJECT_DIR$/config-server">
+      <ProjectState />
+    </projectState>
+    <projectState path="$PROJECT_DIR$/consumo-api">
       <ProjectState />
     </projectState>
     <projectState path="$PROJECT_DIR$/eureka-server">
@@ -71,7 +77,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/config-server" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/gateway" />
   </component>
   <component name="GitHubPullRequestSearchHistory">{
   &quot;history&quot;: [
@@ -118,17 +124,17 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "jdk.selected.JAVA_MODULE": "openjdk-19",
-    "last_opened_file_path": "C:/Users/Usuario/Desktop/Programación/Proyecto_Final_Micro",
+    "last_opened_file_path": "C:/Users/Usuario/Downloads/json-20230227.jar",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Modules",
+    "project.structure.last.edited": "Global Libraries",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
     "service.view.auto.scroll.to.source": "true",
-    "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable",
+    "settings.editor.selected.configurable": "configurable.group.language",
     "spring.configuration.checksum": "0c1328b76384a0fd833356e3a1b763cb",
     "vue.rearranger.settings.migration": "true"
   }
@@ -148,11 +154,11 @@
       <recent name="C:\Users\Usuario\Desktop\Programación\Proyecto_Final_Micro\usuarios\src\main\java\proyectofinal\micro\usuarios\dto" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Usuario\Desktop\Programación\Proyecto_Final_Micro\consumo-api\src\main\java\com.example.consumoapi" />
       <recent name="C:\Users\Usuario\Desktop\Programación\Proyecto_Final_Micro\config-data" />
       <recent name="C:\Users\Usuario\Desktop\Programación\Proyecto_Final_Micro\eureka-server\build" />
       <recent name="C:\Users\Usuario\Desktop\Programación\Proyecto_Final_Micro\usuarios\out\artifacts" />
       <recent name="C:\Users\Usuario\Desktop\Programación\Proyecto_Final_Micro\eureka-server\META-INF" />
-      <recent name="C:\Users\Usuario\Desktop\Programación\Proyecto_Final_Micro\login\build" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="proyectofinal.micro.usuarios.service" />
@@ -167,7 +173,20 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Docker.usuarios/Dockerfile">
+  <component name="RunManager" selected="Application.Principal">
+    <configuration name="Principal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.consumoapi.Principal" />
+      <module name="consumo-api.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.consumoapi.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Tests in 'Proyecto_Final_Micro'" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -189,9 +208,15 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="ConfigServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+    <configuration name="ConfigServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="config-server.main" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="co.edu.uniquindio.proyecto.ConfigServerApplication" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="co.edu.uniquindio.proyecto.ConfigServiceApplication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="co.edu.uniquindio.proyecto.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -260,18 +285,21 @@
       <method v="2" />
     </configuration>
     <list>
+      <item itemvalue="Application.Principal" />
       <item itemvalue="Docker.usuarios/Dockerfile" />
       <item itemvalue="Docker.docker-compose.yml: Compose Deployment" />
       <item itemvalue="Gradle.Tests in 'Proyecto_Final_Micro'" />
+      <item itemvalue="Spring Boot.GatewayServiceApplication" />
       <item itemvalue="Spring Boot.LoginApplication" />
-      <item itemvalue="Spring Boot.ConfigServerApplication" />
       <item itemvalue="Spring Boot.UsuariosApplication (1)" />
       <item itemvalue="Spring Boot.UsuariosApplication" />
       <item itemvalue="Spring Boot.EurekaServiceApplication" />
-      <item itemvalue="Spring Boot.GatewayServiceApplication" />
+      <item itemvalue="Spring Boot.ConfigServiceApplication" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Principal" />
+        <item itemvalue="Spring Boot.ConfigServiceApplication" />
         <item itemvalue="Docker.usuarios/Dockerfile" />
         <item itemvalue="Docker.docker-compose.yml: Compose Deployment" />
         <item itemvalue="Gradle.Tests in 'Proyecto_Final_Micro'" />
@@ -322,7 +350,8 @@
       <workItem from="1685025919681" duration="902000" />
       <workItem from="1685031967712" duration="1442000" />
       <workItem from="1685241435169" duration="7528000" />
-      <workItem from="1685288379644" duration="8884000" />
+      <workItem from="1685288379644" duration="22465000" />
+      <workItem from="1685392954623" duration="14987000" />
     </task>
     <task id="LOCAL-00001" summary="Se crea docker-compose y login">
       <created>1683852303005</created>
@@ -338,7 +367,14 @@
       <option name="project" value="LOCAL" />
       <updated>1685302356483</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="se agregar configuraciones en config-server">
+      <created>1685303244300</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1685303244300</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -371,7 +407,8 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Se crea docker-compose y login" />
     <MESSAGE value="se crea config-server" />
-    <option name="LAST_COMMIT_MESSAGE" value="se crea config-server" />
+    <MESSAGE value="se agregar configuraciones en config-server" />
+    <option name="LAST_COMMIT_MESSAGE" value="se agregar configuraciones en config-server" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
