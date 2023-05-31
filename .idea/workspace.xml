@@ -9,21 +9,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6bfd6007-c6f2-4eb3-bc4c-8b8ed6341022" name="Changes" comment="Se conecta el servicio de phyton con java y se crean los endpoints para acceder a los servicios de phyton">
+    <list default="true" id="6bfd6007-c6f2-4eb3-bc4c-8b8ed6341022" name="Changes" comment="Se realizan las últimas configuraciones y se agrega paquete config-server">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config-server/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/config-server/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eureka-server" beforeDir="false" afterPath="$PROJECT_DIR$/eureka-server" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eureka-server/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/eureka-server/Dockerfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gateway" beforeDir="false" afterPath="$PROJECT_DIR$/gateway" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gateway/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/gateway/Dockerfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gateway/src/main/java/proyectofinal/gateway/security/WebSecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/gateway/src/main/java/proyectofinal/gateway/security/WebSecurityConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/login" beforeDir="false" afterPath="$PROJECT_DIR$/login" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/login/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/login/Dockerfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/login/src/main/java/com/example/login/service/LoginServicio.java" beforeDir="false" afterPath="$PROJECT_DIR$/login/src/main/java/com/example/login/service/LoginServicio.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/usuarios" beforeDir="false" afterPath="$PROJECT_DIR$/usuarios" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/usuarios/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/usuarios/Dockerfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/usuarios/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/usuarios/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -81,6 +68,7 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
   </component>
   <component name="GitHubPullRequestSearchHistory">{
   &quot;history&quot;: [
@@ -133,7 +121,7 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Global Libraries",
+    "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
     "service.view.auto.scroll.to.source": "true",
@@ -357,7 +345,7 @@
       <workItem from="1685392954623" duration="15137000" />
       <workItem from="1685478919879" duration="12250000" />
       <workItem from="1685505152391" duration="196000" />
-      <workItem from="1685505555112" duration="1424000" />
+      <workItem from="1685505555112" duration="1937000" />
     </task>
     <task id="LOCAL-00001" summary="Se crea docker-compose y login">
       <created>1683852303005</created>
@@ -387,7 +375,14 @@
       <option name="project" value="LOCAL" />
       <updated>1685418271899</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Se realizan las últimas configuraciones y se agrega paquete config-server">
+      <created>1685507091588</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1685507091588</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -422,7 +417,8 @@
     <MESSAGE value="se crea config-server" />
     <MESSAGE value="se agregar configuraciones en config-server" />
     <MESSAGE value="Se conecta el servicio de phyton con java y se crean los endpoints para acceder a los servicios de phyton" />
-    <option name="LAST_COMMIT_MESSAGE" value="Se conecta el servicio de phyton con java y se crean los endpoints para acceder a los servicios de phyton" />
+    <MESSAGE value="Se realizan las últimas configuraciones y se agrega paquete config-server" />
+    <option name="LAST_COMMIT_MESSAGE" value="Se realizan las últimas configuraciones y se agrega paquete config-server" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
